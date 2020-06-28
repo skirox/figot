@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Cours",
+    "\\Cours\\iPortfolio",
+    "\\Cours\\iPortfolio\\assets",
+    "\\Cours\\iPortfolio\\assets\\img"
   ],
-  "SelectedNode": "\\Allemand3e.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
