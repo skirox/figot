@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\vendor\\venobox",
     "\\Cours",
     "\\Cours\\Cours",
     "\\Cours\\Cours\\Mathematiques3e",
-    "\\Cours\\Cours\\Mathematiques3e\\img",
-    "\\Cours\\Cours\\Mathematiques3e\\img\\Correction"
+    "\\Cours\\Cours\\Mathematiques3e\\img"
   ],
-  "SelectedNode": "\\site en developement.html",
+  "SelectedNode": "\\Cours\\Cours\\Mathematiques3e\\Les-fonctions-lineaires-et-affines.html",
   "PreviewInSolutionExplorer": false
 }
