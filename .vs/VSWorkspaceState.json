@@ -1,12 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\Cours",
     "\\Cours\\Cours",
     "\\Cours\\Cours\\Mathematiques3e",
-    "\\Cours\\Cours\\Mathematiques3e\\img"
+    "\\Cours\\Cours\\site-extention",
+    "\\Cours\\Cours\\site-extention\\assets",
+    "\\Cours\\Cours\\site-extention\\assets\\vendor",
+    "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont",
+    "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont\\fonts"
   ],
-  "SelectedNode": "\\Cours\\Cours\\Mathematiques3e\\Les-fonctions-lineaires-et-affines.html",
+  "SelectedNode": "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont\\icofont.min.css",
   "PreviewInSolutionExplorer": false
 }
