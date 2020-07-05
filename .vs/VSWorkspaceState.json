@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\vendor\\venobox",
     "\\Cours",
-    "\\Cours\\site extention"
+    "\\Cours\\Cours",
+    "\\Cours\\Cours\\Mathematiques3e",
+    "\\Cours\\Cours\\Mathematiques3e\\img",
+    "\\Cours\\Cours\\Mathematiques3e\\img\\Correction"
   ],
   "SelectedNode": "\\site en developement.html",
   "PreviewInSolutionExplorer": false
