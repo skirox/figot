@@ -55,8 +55,8 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="https://le-figot.netlify.app/assets/img/hero-bg2.jpg" class="d-flex align-items-center">
-      <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+  <section id="hero1" class="d-flex align-items-center">
+      <div style="color:#ffffff;" class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
 
           <h1>𝐒𝐢𝐭𝐞 𝐞𝐧 𝐦𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐜𝐞 𝐨𝐮 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐦𝐞𝐧𝐭</h1>
                         <form name="contact" method="POST" data-netlify="true">
@@ -68,9 +68,11 @@
                   </p>
                   <p>
                       <label>
-                          Your Role: <select name="role[]" multiple>
-                              <option value="professeur">professeur</option>
-                              <option value="visiteur">visiteur</option>
+                          Role:
+                          <select name="role[]" multiple>
+                              <option value="professeur">professeur(s) </option>
+                              <option value="visiteur">visiteur(s) </option>
+                              <option value="equipe-administrative">équipe administrative </option>
 
                           </select>
                       </label>
@@ -79,7 +81,7 @@
                       <label>Message: <textarea name="message"></textarea></label>
                   </p>
                   <p>
-                      <button class="btn-get-started scrollto" type="submit">Envoyer</button>
+                      <button class="btn-get-started:hover" type="submit">Envoyer</button>
                       <button <a href="#" class="btn-get-started scrollto">Envoyer</a></button>
                   </p>
               </form>
