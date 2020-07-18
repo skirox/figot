@@ -40,15 +40,29 @@
       <div class="header-container d-flex align-items-center">
           <div class="logo mr-auto">
               <h1 class="text-light"><a href="index.html"><span>Nous contacter</span></a></h1>
- <form name="contact" method="POST" data-netlify="true">
-              <p>
-                  <label>Nom: <input type="text" name="name" /></label>
-              </p>
-              <p>
-                  <label>Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-    
+              <form name="contact" method="POST" data-netlify="true">
+                  <p>
+                      <label>Nom: <input type="text" name="name" /></label>
+                  </p>
+                  <p>
+                      <label>Email: <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                      <label>
+                          Your Role: <select name="role[]" multiple>
+                              <option value="professeur">professeur</option>
+                              <option value="visiteur">visiteur</option>
+                          </select>
+                      </label>
+                  </p>
+                  <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                  </p>
+                  <p>
+                      <button type="submit">Envoyer</button>
+                  </p>
+              </form>
+
               <!-- Uncomment below if you prefer to use an image logo -->
               <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
           </div>
@@ -56,20 +70,7 @@
         <nav class="nav-menu d-none d-lg-block">
 
             <ul>
-                <label>
-                    Your Role: <select name="role[]" multiple>
-                        <option value="professeur">professeur</option>
-                        <option value="visiteur">visiteur</option>
-                    </select>
-                </label>
-                </p>
-                <p>
-                    <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                    <button type="submit">Envoyer</button>
-                </p>
-                </form>
+                
 
                 <li class="get-started"><a href="index.html">Acceuil</a></li>
             </ul>
