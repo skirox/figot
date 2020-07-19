@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Cours",
-    "\\Cours\\Cours",
-    "\\Cours\\Cours\\Mathematiques3e",
-    "\\Cours\\Cours\\site-extention",
-    "\\Cours\\Cours\\site-extention\\assets",
-    "\\Cours\\Cours\\site-extention\\assets\\vendor",
-    "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont",
-    "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont\\fonts"
+    "\\netlify-identity-widget-master",
+    "\\netlify-identity-widget-master\\.github\\workflows",
+    "\\netlify-identity-widget-master\\example",
+    "\\netlify-identity-widget-master\\example\\react",
+    "\\netlify-identity-widget-master\\src",
+    "\\netlify-identity-widget-master\\src\\components\\forms",
+    "\\netlify-identity-widget-master\\src\\components\\modal",
+    "\\netlify-identity-widget-master\\src\\state",
+    "\\netlify-identity-widget-master\\src\\translations"
   ],
-  "SelectedNode": "\\Cours\\Cours\\site-extention\\assets\\vendor\\icofont\\icofont.min.css",
+  "SelectedNode": "\\netlify-identity-widget-master\\src\\translations\\index.test.js",
   "PreviewInSolutionExplorer": false
 }
