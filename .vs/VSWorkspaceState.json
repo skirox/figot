@@ -1,16 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\email",
     "\\netlify-identity-widget-master",
-    "\\netlify-identity-widget-master\\.github\\workflows",
-    "\\netlify-identity-widget-master\\example",
-    "\\netlify-identity-widget-master\\example\\react",
-    "\\netlify-identity-widget-master\\src",
-    "\\netlify-identity-widget-master\\src\\components\\forms",
-    "\\netlify-identity-widget-master\\src\\components\\modal",
-    "\\netlify-identity-widget-master\\src\\state",
-    "\\netlify-identity-widget-master\\src\\translations"
+    "\\netlify-identity-widget-master\\Login_v1",
+    "\\netlify-identity-widget-master\\registration"
   ],
-  "SelectedNode": "\\netlify-identity-widget-master\\src\\translations\\index.test.js",
+  "SelectedNode": "\\netlify-identity-widget-master\\Login_v1\\index.html",
   "PreviewInSolutionExplorer": false
 }
