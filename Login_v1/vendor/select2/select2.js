@@ -32,12 +32,12 @@
     factory(jQuery);
   }
 } (function (jQuery) {
-
+  // This is needed so we can catch the AMD loader configuration and use it
+  // The inner file should be wrapped (by `banner.start.js`) in a function that
+  // returns the AMD loader references.
   var S2 =(function () {
   // Restore the Select2 AMD loader so it can be used
-  // Needed mostly in the language files, where  // This is needed so we can catch the AMD loader configuration and use it
-  // The inner file should be wrapped (by `banner.start.js`) in a function that
-  // returns the AMD loader references. the loader is not inserted
+  // Needed mostly in the language files, where the loader is not inserted
   if (jQuery && jQuery.fn && jQuery.fn.select2 && jQuery.fn.select2.amd) {
     var S2 = jQuery.fn.select2.amd;
   }
@@ -89,7 +89,7 @@ var requirejs, require, define;
             //otherwise, assume it is a top-level require that will
             //be relative to baseUrl in the end.
             if (baseName) {
-                name = name.split('https://le-figot.netlify.app/.netlify/identity');
+                name = name.split('/');
                 lastIndex = name.length - 1;
 
                 // Node .js allowance:
@@ -1975,8 +1975,7 @@ S2.define('select2/selection/search',[
         // We can freely ignore events from modifier keys
         if (key == KEYS.SHIFT || key == KEYS.CTRL || key == KEYS.ALT) {
           return;
-
-
+        }
 
         // Tabbing will be handled during the `keydown` phase
         if (key == KEYS.TAB) {
