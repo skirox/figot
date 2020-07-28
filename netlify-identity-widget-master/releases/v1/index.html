@@ -10,25 +10,28 @@
 
 
 
-	
+
+	<!DOCTYPE html>
+	<html>
 	<head>
-		<title> Un site Web statique </title>
+		<title>A static website</title>
 
-		<!-inclure le widget->
-		<script type=" text / javascript " src=" https://identity.netlify.com/v1/netlify-identity-widget.js "> </script>
+		<!-- include the widget -->
+		<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>
-	<corps>
-		<! - Ajouter un menu:
-		Connexion / Inscription - lorsque l'utilisateur n'est pas connecté
-		Nom d'utilisateur / Déconnexion - lorsque l'utilisateur est connecté
-		->
-		<div data-netlify-identity-menu> </div>
+	<body>
+		<!-- Add a menu:
+		 Log in / Sign up - when the user is not logged in
+		 Username / Log out - when the user is logged in
+		-->
+		<div data-netlify-identity-menu></div>
 
-		<! - Ajouter un bouton plus simple:
-		bouton simple qui ouvrira le modal.
-		->
-		<div data-netlify-identity-button> Connexion avec Netlify Identity </div>
-		</body>
+		<!-- Add a simpler button:
+		  Simple button that will open the modal.
+		-->
+		<div data-netlify-identity-button>Login with Netlify Identity</div>
+	</body>
+</html>
 
 
 
