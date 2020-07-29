@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\email",
-    "\\netlify-identity-widget-master",
+    "\\netlify-identity-widget-master\\.github",
+    "\\netlify-identity-widget-master\\example\\.netlify",
     "\\netlify-identity-widget-master\\releases",
-    "\\netlify-identity-widget-master\\releases\\v1"
+    "\\netlify-identity-widget-master\\script",
+    "\\netlify-identity-widget-master\\src\\components",
+    "\\netlify-identity-widget-master\\src\\components\\modal",
+    "\\netlify-identity-widget-master\\src\\state"
   ],
-  "SelectedNode": "\\netlify-identity-widget-master\\releases\\v1\\index.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
