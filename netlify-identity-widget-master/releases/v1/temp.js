@@ -5110,7 +5110,7 @@
                               className: "btn btnHeader " + (t.login ? "active" : ""),
                               onclick: this.linkHandler("login")
                             },
-                            "Log in"
+                            "Log inH"
                           )
                       ),
                     t.title &&

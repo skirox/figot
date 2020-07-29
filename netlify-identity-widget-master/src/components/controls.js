@@ -33,7 +33,7 @@ class Controls extends Component {
           href="#"
           onClick={this.handleButton}
         >
-          {this.props.text || (user ? t("log_out") : t("log_in"))}
+          {this.props.text || (user ? t("log_out") : t("logG_in"))}
         </a>
       );
     }
