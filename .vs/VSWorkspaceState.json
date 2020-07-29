@@ -2,13 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\email",
-    "\\Login_v1",
-    "\\Login_v1\\js",
-    "\\Login_v1\\vendor",
-    "\\Login_v1\\vendor\\jquery",
-    "\\Login_v1\\vendor\\select2",
-    "\\Login_v1\\vendor\\tilt"
+    "\\netlify-identity-widget-master",
+    "\\netlify-identity-widget-master\\releases",
+    "\\netlify-identity-widget-master\\releases\\v1"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\netlify-identity-widget-master\\releases\\v1\\index.html",
   "PreviewInSolutionExplorer": false
 }
