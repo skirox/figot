@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\img",
+    "\\assets\\img\\team",
+    "\\Cours",
+    "\\Cours\\Cours",
+    "\\Cours\\Cours\\Mathematiques3e"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\img\\team\\team-2.jpg",
   "PreviewInSolutionExplorer": false
 }
