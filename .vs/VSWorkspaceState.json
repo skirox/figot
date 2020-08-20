@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\img",
-    "\\assets\\img\\team",
     "\\Cours",
-    "\\Cours\\Cours",
-    "\\Cours\\Cours\\Mathematiques3e"
+    "\\Cours\\Cours\\Mathematiques3e",
+    "\\Cours\\Cours\\site-extention\\assets"
   ],
-  "SelectedNode": "\\assets\\img\\team\\team-2.jpg",
+  "SelectedNode": "\\Cours\\Cours",
   "PreviewInSolutionExplorer": false
 }
