@@ -1,0 +1,271 @@
+﻿<!-- ================================= AIDES :==================================
+
+
+     <!-- ================================= STYLE D'ECRITURE :==================================
+         Formater une police de caractère [obliger ton texte a etre du certain police d'ecriture ] :
+         <font face="">
+                              [EXPLICATION]
+
+          définit le type de police que l'on souhaite et nécessite un marqueur de fin.
+
+                                 [ Règle POUR L'APLIQUER :]
+
+          <font face="">...ici tu ecrit..</font>
+
+                                  [SOURCES :]
+
+           *explication : http://www.delprat.org/cours/police.htm
+            * pour choissire la police : https://fr.wikipedia.org/wiki/Liste_de_polices_d%27%C3%A9criture
+        =================================
+<!-- ======================== COULEUR DE TON ECRITURE : ========================
+                [COMMENT CHOISSIR LA COULEUT]
+
+   ETAPE 1 :
+      * {TE RENDRE SUR CE SITE} :https://html-color-codes.info/Codes-couleur-HTML/
+
+   ETAPE 2 :
+     * {L'APPLIQUER} : AJOUTER A TON FONT SIZE   style="color:#173b6c;"
+
+                            [EXEMPLE]
+
+    * <font style="color:#(ta couleur que tu a pris dans l'etape 1);"> face="arial">...ici tu ecrit..</font>
+
+ ====================================== -->
+<!-- ==========================Soulignement encadrement ======================================
+
+  A SAVOIR LES <H1> <H2> <H3> <H4> <H5> <H6> SON PEUVENT ETRE UTILISER QUE DANS LE DOSSIER "\Cours\Cours\"
+  IL SON SOUMIS A CERTAINE POUR DES RAISSON DE FLEMME DE TOUT AJOUTER DANS TOUT LES STYLE.CSS
+
+  l'encadrement de ton texte : <h5>
+
+
+                       [soulignemenent]
+
+      Il existe plusieurs solutions pour souligner un texte en HTML. La solution la plus récente et la plus recommandée fait appel aux feuilles de style.
+
+
+
+     Pour souligner un texte en HTML, en utilisant les feuilles de style, utilisez la propriété text-decoration :
+
+          * <p style="text-decoration: underline;">Ce texte est souligné en HTML</p>
+
+     Remarque : Vous pouvez soit utiliser la valeur style="" directement dans vos balises P, SPAN, DIV, etc, ou bien externaliser la propriété text-decoration dans une balise STYLE ou un fichier CSS à part, et l'utiliser par exemple avec l’attribut CLASS.
+
+                         [ utilisation du soulignement : ]
+
+                 <p class="souligner">Ce texte est souligné en HTML</p>
+
+     {si ton texte n'est pas souligner alors verifier que se texte est present dans l'intergraliter de ton code : }
+
+
+  <style>
+        .souligner {
+          text-decoration: underline;
+        }
+    </style>
+
+
+
+
+
+
+     ==================================================================================  -->
+<!--  =========================== AJOUTE D'UN POINT SUR LA LIGNE BLEUX ===========================
+
+                         [IL TE SUFIS D' AJOUTER DE TEXTE A LA SUITE : ]
+
+                     <div class="row">
+                        <div class="col-lg-6" data-aos="fade-up">
+
+                            <div class="resume-item pb-0">
+                                [tu ecrit ici]
+                           </div>
+                       </div>
+                    </div>
+
+
+
+
+
+
+
+
+====================================================================================================== -->
+<!-- ======================= TROUVER UN MOTS DANS TOUT LE TEXTE :
+
+                        [TAPE CTRL+F] ENSUITE IL TE SUFFIS DE CHERCHER TES MOTS BISOUS <3
+
+
+ ================================================================================= -->
+<!-- ======================= TU NE TOUCHE  TOUCHER =============================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .souligner {
+            text-decoration: underline;
+        }
+    </style>
+
+    <!-- ================================================================================ -->
+    <!-- ======================= TITRE DE LA PAGE =============================== -->
+    <title>Nom de la page internet</title>
+    <!-- ================================================================================ -->
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="https://lesson-school.netlify.app/assets/img/favicon.png" rel="icon">
+    <link href="https://lesson-school.netlify.app/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="https://lesson-school.netlify.app/cours/cours/site-extention/assets/css/style.css" rel="stylesheet">
+    <!-- ======================= TU NE TOUCHE  TOUCHER =============================== -->
+</head>
+<body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="d-flex flex-column">
+            <div class="profile">
+
+
+                <!-- ====================================================================================== -->
+                <!-- ====================================================================================== -->
+                <!-- ====================================================================================== -->
+                <!-- ====================================================================================== -->
+                <!-- ======================= PHOTO PROFILE AUTEUR ==================================================
+                * LEFEVRE MATHEO : https://lesson-school.netlify.app/assets/img/team/team-1.jpg
+                * PIERRER MAUD : https://lesson-school.netlify.app/assets/img/team/team-2.jpg -->
+                <!-- ======================== ICI CHANGER LE LIEN POUR L'IMAGE PROFILE ============================= -->
+                <img src="https://lesson-school.netlify.app/assets/img/team/team-1.jpg" alt="" class="img-fluid rounded-circle">
+                <!-- ================================================================================ -->
+                <!-- ==================================NE PAS TOUCHER ============================================== -->
+                <h1 class="text-light"><a href="#">Auteur</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <!-- ================================================================================ -->
+                    <!-- =================================RESEAU AUTEUR =========================================== -->
+                    <a href="https://www.instagram.com/matheo_lfr/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+
+
+
+            <!-- ======================================NE PAS TOUCHER==================================== -->
+
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="https://lesson-school.netlify.app/"><i class="bx bx-home"></i> <span>Acceuil</span></a></li>
+                    <li><a href="https://lesson-school.netlify.app/mathematiques3e"><i class="bx bx-file-blank"></i> <span>Retours</span></a></li>
+                    <li><a href="https://lesson-school.netlify.app/Cours/Cours/Mathematiques3e/img/Correction/lineaires.pdf"><i class="icofont-card"></i> Cours en image</a></li>
+                    <li><a href="https://www.paypal.me/skirox?locale.x=fr_FR"><i class="bx bx-book-content"></i> Soutenire l'auteurs</a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+        </div>
+    </header><!-- End Header -->
+    <!-- ================================================================================ -->
+    <main id="main">
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="section-title">
+                    <!-- ======================================TU PEUX TOUCHER ==================================== -->
+                    <!-- =========================== Petit entête  ======================================= -->
+                    <h2>GRAND TITRE COURS</h2>
+                    <p>RESUMER DU CONTENUE.</p>
+                </div>
+                <!-- ======= fin entête ======= -->
+                <!-- ================================================================================ -->
+                <!-- ===============================  EXEMPLE COURS !=================================-->
+                <!-- ================================================================================ -->
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title"></h3>
+                        <div class="resume-item pb-0">
+
+                            <!-- ==============================Grand titre paragraphe 1 ====================================== -->
+                            <h4 style="color:#173b6c;">Activité découverte</h4>
+                            <!-- ================================================================================ -->
+
+                            <p>
+                                <!-- ====================couleur du texte qui est chevroner par <em></em>==================================== -->
+                                <em style="color:#000000;">
+                                    <!-- ================================================================================ -->
+                                    <!-- ================================================================================ -->
+                                    <!-- ================================================================================ -->
+                                </em>
+                            </p>
+
+
+                            <!-- ============tu peux ajouter une corection d'un d'exercice comme se ci ================================ -->
+
+                            <ul>
+                                <!-- ==================ici le chemin d'acces pour ton image======================================================== -->
+                                <li>
+                                    <a href="img\Correction\Activite-decouvrte-1.PNG" data-gall="portfolioGallery" class="venobox"<i class="bx bx-file-blank">
+                                       <!-- ======================et la le texte qui apparait================================================ -->
+                                       </i> <span>Corection</span></a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+        </section><!-- End Resume Section -->
+        <!-- ================================================================================ -->
+        <!-- ================================================================================ -->
+        <!-- ================================================================================ -->
+        <!-- =====================FIN DU COUUR ============================================== -->
+        <!-- ================================================================================ -->
+        <!-- ================================================================================ -->
+        <!-- ================================================================================ -->
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>lesson school</span></strong>
+            </div>
+            <div class="credits">
+                <a href="https://lesson-school.netlify.app/">lesson school</a>
+            </div>
+        </div>
+    </footer><!-- End  Footer -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assetsassets/vendor/php-email-form/validate.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/typed.js/typed.min.js"></script>
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/vendor/aos/aos.js"></script>
+    <!-- Template Main JS File -->
+    <script src="https://lesson-school.netlify.app/cours/cours/site-extention/assets/js/main.js"></script>
+</body>
+</html>
+<!-- ================================================================================ -->
